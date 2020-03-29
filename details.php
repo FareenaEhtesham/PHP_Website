@@ -62,7 +62,6 @@ while($row_posts=mysqli_fetch_array($run_posts))
     $post_author=$row_posts['post_author'];
     //$post_keyword=$row_posts['post_keyword'];
     $post_image=$row_posts['post_image'];
-    //$post_content=substr($row_posts['post_content'],0,100);
     $post_content=$row_posts['post_content'];
 
    echo"
